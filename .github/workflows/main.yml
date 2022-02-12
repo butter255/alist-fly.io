@@ -1,12 +1,12 @@
-name: Fly Deploy cd
+name: 05fx
 on: 
   push:
   schedule:
     - cron: '0 8 3 * *'
 env:
-  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-  APP_NAME: ${{ secrets.APP_NAME }}
-  SQLUSER: ${{ secrets.SQLUSER }}
+  FLY_API_TOKEN: ${{ pyOXOfLxmS4AtQobc1AymSTP-t_0fRODxq9zpitr8Is }}
+  APP_NAME: ${{ 05fx }}
+  SQLUSER: ${{ mysql }}
   DATABASE: ${{ secrets.DATABASE }}
   SQLPASSWORD: ${{ secrets.SQLPASSWORD }}
   SQLHOST: ${{ secrets.SQLHOST }}
